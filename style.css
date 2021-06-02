@@ -35,7 +35,7 @@ body {
     height: 100%;
     width: 100%;
     z-index: 9999;
-    display: none;
+    display: block;
     background: #fff url('./images/Spinner.gif') no-repeat center;
 }
 
