@@ -18,7 +18,7 @@ const mapFn = (lat, lng) => {
 
 // FETCH FUNCTION 
 const fetchFn = () => {
-    loader.style.display = "block";
+//     loader.style.display = "block";
 
     fetch(`https://geo.ipify.org/api/v1?apiKey=at_hKY1etb9DMbKMhHUZk4RiD9hmQu1p&${add}`)
         .then(response => {
@@ -95,7 +95,7 @@ query.track.addEventListener('keypress', (e) => {
         e.preventDefault();
 
         if(!query.track.value == "") {
-            loader.style.display = "block";
+//             loader.style.display = "block";
             input(query.track.value);
         }
     }
@@ -105,7 +105,7 @@ query.track.addEventListener('keypress', (e) => {
 query.submit.addEventListener('click', () => {
     
     if(!query.track.value == "") {
-        loader.style.display = "block";
+//         loader.style.display = "block";
         input(query.track.value);
     }
 });
